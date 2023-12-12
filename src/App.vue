@@ -1,0 +1,27 @@
+<script setup>
+import { ref, computed } from 'vue'
+import Home from './components/Home.vue'
+import Contact from './components/Contact.vue'
+import NotFound from './components/NotFound.vue'
+import Services from './components/Services.vue'
+
+const routes = {
+  '/': Home,
+  '/contact': Contact,
+  '/services': Services
+}
+
+const currentPath = ref(window.location.hash)
+
+window.addEventListener('hashchange', () => {
+  currentPath.value = window.location.hash
+})
+
+const currentView = computed(() => {
+  return routes[currentPath.value.slice(1) || '/'] || NotFound
+})
+</script>
+
+<template>
+  <component :is="currentView" />
+</template>

@@ -1,0 +1,76 @@
+ <div class="container-xxl">
+            <div class="p-5 mb-4 rounded-3">
+                <div class="container-fluid py-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-h2 font-weight-regular up" style="color:#033f58">Asegura tu negocio con Acceso
+                                Correcto</div>
+                            <div class="text-h6 up">
+                                Sistemas de seguridad, Comunicación, Voz y Datos, Controles de Acceso y Automatización
+                                <Palabras />
+                                <br>
+                            </div>
+
+                            <div>
+                                <v-btn elevation="8" rounded="xl" size="large"
+                                    class="v-theme--light bg-light-blue-lighten-1 text-white">Conocer trabajo</v-btn>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/phoneloop.gif" alt="Tu GIF" style="width: 100%; height: auto;">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script>
+
+            import Privacy from './Alet_privacy.vue'
+            import Header from './Header.vue'
+            import Palabras from './Swiper-home.vue'
+            import piedepagina from './Footer.vue'
+            
+            
+            // Import Swiper Vue.js components
+            import { Swiper, SwiperSlide } from 'swiper/vue';
+            
+            
+            // Import Swiper styles
+            import 'swiper/css';
+            
+            
+            export default {
+                name: 'Home',
+                components: {
+                    Header,
+                    Palabras,
+                    Swiper,
+                    SwiperSlide,
+                    Privacy,
+                    piedepagina,
+            
+                },
+            
+                setup() {
+                    const onSwiper = (swiper) => {
+                        console.log(swiper);
+                    };
+                    const onSlideChange = () => {
+                        console.log('slide change');
+                    };
+                    return {
+                        onSwiper,
+                        onSlideChange,
+                    };
+            
+                }
+            }
+            
+            
+            
+            </script>
