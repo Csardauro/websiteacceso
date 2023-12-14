@@ -37,7 +37,7 @@
   </div>
 
         <div class="container-xxl">
-        <img src="portadaloop.gif" alt="Servicios Acceso Correcto">
+        <img src="../../public/portadaloop.gif" alt="Portada loop home">
     </div>
         <br>
         <div class="container">

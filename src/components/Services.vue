@@ -15,13 +15,13 @@
         </div>
 
         <div class="container">
-            <img style="width: 7%; display: flex; margin: auto;" src="swipe_servicios.gif" alt="swipe">
+            <img style="width: 7%; display: flex; margin: auto;" src="../../public/swipe_servicios.gif" alt="swipe">
         </div>
 
     </div>
 
     <div class="container-xxl">
-        <img src="portada_servicios.gif" alt="Servicios Acceso Correcto">
+        <img src="../../public/portada_servicios.gif" alt="Servicios Acceso Correcto">
     </div>
 
     <div class="container">
@@ -52,7 +52,7 @@
     </div>
 
     <div class="container-xxl up">
-        <img src="cta_servicios.gif" alt="Servicios Acceso Correcto">
+        <img src="../../public/cta_servicios.gif" alt="Servicios Acceso Correcto">
     </div>
     <div class="container up">
         <swiper :slidesPerView="3" :spaceBetween="30" :pagination="{ clickable: true }" :modules="modules" class="mySwiper"
@@ -82,11 +82,11 @@
     </div>
 
     <div class="container-xxl up">
-        <img src="cta_llamada.gif" alt="Llama a Acceso Correcto">
+        <img src="../../public/cta_llamada.gif" alt="Llama a Acceso Correcto">
     </div>
 
     <div class="container-xxl up">
-        <img src="calidad.png" alt="Llama a Acceso Correcto">
+        <img src="../../public/calidad.png" alt="Llama a Acceso Correcto">
     </div>
 
    
