@@ -324,7 +324,7 @@ export default {
           buttonText: 'Conocer trabajo',
           buttonColor: 'bg-light-blue-lighten-1',
           titleColor: '#033f58',
-          image: '/phoneloop.gif',
+          image: '../../public/phoneloop.gif',
         },
         { 
           title: 'Portería inteligente',
@@ -332,7 +332,7 @@ export default {
           buttonText: 'Comprar',
           buttonColor: 'bg-light-blue-lighten-1',
           titleColor: '#033f58',
-          image: '/vdc.png',
+          image: '../../public/vdc.png',
         },
       ],
     };
